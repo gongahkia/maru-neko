@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LocalStorage Example</title>
+</head>
+<body>
+
+  <h1>LocalStorage Example</h1>
+
+  <label for="dataInput">Enter Data:</label>
+  <input type="text" id="dataInput">
+  <button onclick="saveData()">Save Data</button>
+
+  <p id="displayData"></p>
+
+  <script>
+
+    function saveData() {
+      var inputData = document.getElementById('dataInput').value;
+
+      if (typeof(Storage) !== "undefined") {
+        localStorage.setItem('myData', inputData);
+        alert('Data saved successfully!');
+        displayData();
+      } else {
+        alert('Sorry, your browser does not support localStorage.');
+      }
+    }
+
+    function displayData() {
+      if (typeof(Storage) !== "undefined") {
+        var storedData = localStorage.getItem('myData');
+        document.getElementById('displayData').innerHTML = 'Stored Data: ' + storedData;
+      } else {
+        alert('Sorry, your browser does not support localStorage.');
+      }
+    }
+
+    displayData();
+  </script>
+</body>
+</html>
