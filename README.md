@@ -16,7 +16,7 @@ Maru Neko.
 
 ```console
 $ git clone https://github.com/gongahkia/maru-neko
-$ cd tamagebu
+$ cd maru-neko
 $ make
 ```
 
