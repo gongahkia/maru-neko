@@ -6,11 +6,7 @@ Maru Neko.
 
 ## Motivation
 
-> Add this
-
 ## Installation
-
-> Add to this
 
 ### CLI
 
