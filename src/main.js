@@ -4,6 +4,7 @@
         // rework README.md installation
         // rework Makefile
         // implement rendering of popup browser, see if can retain extension popup when webpage scrolls down/ left and right clicked
+        // allow for the animal (egg cat) to wear multiple hats
     // logic
         // continue working on manifest.json
         // ** use localstorage api to handle local storage within firefox and chrome and safari
@@ -13,6 +14,7 @@
         // use squash and stretch within CSS and HTML to animate sprites nad their movement
             // repurpose proof-of-concept code for goose if need animals to follow cursor
                 // give sprite a cute left and right bobble similar to fish in chillquarium
+                // find egg cat png and egg dog png https://youtu.be/Vi7ULYt2ha0?si=pHmi9bBaJixifY5H
             // find appropriate pet sprites for each variant selection
         // work out how to store data for each pet, test for restart on computer
     // test
