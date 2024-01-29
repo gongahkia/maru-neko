@@ -1,5 +1,4 @@
 // FUA
-    // * find another name for this browser extension better than maruneko, rework it around the concept of battlecats
     // * GAME should just be the cats can spawn in when u click and have enough money, and they follow your cursor, there is a max of 20 cats to ensure the frame rate is ok
       // * can buy backgrounds and types of cats
       // * work out how to store data for each pet, test for restart on computer
