@@ -2,7 +2,7 @@
   "manifest_version":2,
   "version":"1.0",
   "name":"Petting Zoo", 
-  "description":"Raise them all.",
+  "description":"Give them your pets.",
   "icons": {
     "16": "asset/sad-cat-16.png",
     "24": "asset/sad-cat-24.png",
