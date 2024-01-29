@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <style>
     body {
       width: 300px;
       height: 300px;
       text-align: center;
+      position: relative;
     }
 
     .cursorFollower {
@@ -18,10 +19,28 @@
       transition: transform 0.2s ease-out;
     }
 
+    .quote {
+      font-weight: bold;
+      font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .quoteAuthor {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
   </style>
 </head>
 <body>
   <div class="cursorFollower"></div>
+  <div class="quote">Your quote goes here.</div>
+  <div class="quoteAuthor">Author name</div>
   <script src="popup.js"></script>
 </body>
 </html>

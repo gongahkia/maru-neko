@@ -2,7 +2,7 @@
   "manifest_version":2,
   "version":"1.0",
   "name":"Petting Zoo", 
-  "description":"Give them your pets.",
+  "description":"Pets that motivate you.",
   "icons": {
     "16": "asset/sad-cat-16.png",
     "24": "asset/sad-cat-24.png",
