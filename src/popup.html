@@ -3,8 +3,8 @@
 <head>
   <style>
     body {
-      width: 400px;
-      height: 400px;
+      width: 700px;
+      height: 700px;
       text-align: center;
     }
 
@@ -27,12 +27,23 @@
     #spawnButton:hover {
       background-color: #316935;
     }
+
+    .cursorFollower {
+      position: absolute;
+      width: 100px;
+      height: 50px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: transform 0.2s ease-out;
+    }
   </style>
 </head>
 <body>
   <button id="spawnButton">spawn</button>
   <button id="removeButton">remove</button>
   <div id="count">0</div>
+  <div class="cursorFollower"></div>
   <script src="popup.js"></script>
 </body>
 </html>
