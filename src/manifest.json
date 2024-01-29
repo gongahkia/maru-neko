@@ -1,7 +1,7 @@
 {
   "manifest_version":2,
   "version":"1.0",
-  "name":"Maru Neko", 
+  "name":"Petting Zoo", 
   "description":"Raise them all.",
   "icons": {
     "16": "asset/sad-cat-16.png",
