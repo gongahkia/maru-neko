@@ -1,8 +1,8 @@
-# 丸猫
+# Petting Zoo
 
-Maru Neko. 
+They crave pets.
 
-![](https://media.sketchfab.com/models/d393a0d9e1cd42c98ad69bdc0dfb75bd/thumbnails/9b8e97acd68745cc83fe484f87a74114/6cc240f8a4d343829a6b0d1471e68f81.jpeg)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN2gHRf34daZW3bPGN-V_b4znTYiuoACzlrr5ZXjEBi8clCzyad89TpEnQCWdZE7jRCis&usqp=CAU)
 
 ## Motivation
 
@@ -11,8 +11,8 @@ Maru Neko.
 ### CLI
 
 ```console
-$ git clone https://github.com/gongahkia/maru-neko
-$ cd maru-neko
+$ git clone https://github.com/gongahkia/petting-zoo
+$ cd petting-zoo
 $ make
 ```
 
