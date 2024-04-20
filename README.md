@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/petting_zoo_1.0-passing-green)
+
 # Petting Zoo
 
 Brower extension that gives you a mini petting zoo with motivational quotes.
